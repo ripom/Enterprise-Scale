@@ -1,0 +1,78 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7",
+        "Name": "19d772c9-65d9-4846-9bd3-6477b61402e7",
+        "DisplayName": "Visual Studio Enterprise Subscription",
+        "Children": null,
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [
+            {
+              "Identity": null,
+              "Location": null,
+              "Name": "DataProtectionSecurityCenter",
+              "PolicyAssignmentId": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7/providers/Microsoft.Authorization/policyAssignments/DataProtectionSecurityCenter",
+              "Properties": {
+                "Description": "This policy assignment was automatically created by Azure Security Center",
+                "DisplayName": "ASC DataProtection (subscription: 19d772c9-65d9-4846-9bd3-6477b61402e7)",
+                "NotScopes": null,
+                "Parameters": null,
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/9cb3cc7a-b39b-4b82-bc89-e5a5d9ff7b97",
+                "Scope": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7"
+              },
+              "ResourceId": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7/providers/Microsoft.Authorization/policyAssignments/DataProtectionSecurityCenter",
+              "ResourceName": "DataProtectionSecurityCenter",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A1",
+                "tier": "Standard"
+              }
+            },
+            {
+              "Identity": null,
+              "Location": null,
+              "Name": "SecurityCenterBuiltIn",
+              "PolicyAssignmentId": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7/providers/Microsoft.Authorization/policyAssignments/SecurityCenterBuiltIn",
+              "Properties": {
+                "Description": "This is the default set of policies monitored by Azure Security Center. It was automatically assigned as part of onboarding to Security Center. The default assignment contains only audit policies. For more information please visit https://aka.ms/ascpolicies",
+                "DisplayName": "ASC Default (subscription: 19d772c9-65d9-4846-9bd3-6477b61402e7)",
+                "NotScopes": null,
+                "Parameters": {},
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
+                "Scope": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7"
+              },
+              "ResourceId": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7/providers/Microsoft.Authorization/policyAssignments/SecurityCenterBuiltIn",
+              "ResourceName": "SecurityCenterBuiltIn",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A1",
+                "tier": "Standard"
+              }
+            }
+          ],
+          "roleDefinitions": [],
+          "roleAssignments": [
+            {
+              "Id": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7/providers/Microsoft.Authorization/roleAssignments/e7eb75eb-ddb9-02c6-d214-c5c1763c05a3",
+              "Name": "e7eb75eb-ddb9-02c6-d214-c5c1763c05a3",
+              "properties": {
+                "DisplayName": null,
+                "ObjectType": "Unknown",
+                "PrincipalId": "8f78e146-aa0e-4216-9c98-583ece2177d5",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/4d97b98b-1d4f-4787-a291-c67834d212e7",
+                "RoleDefinitionName": "Network Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
