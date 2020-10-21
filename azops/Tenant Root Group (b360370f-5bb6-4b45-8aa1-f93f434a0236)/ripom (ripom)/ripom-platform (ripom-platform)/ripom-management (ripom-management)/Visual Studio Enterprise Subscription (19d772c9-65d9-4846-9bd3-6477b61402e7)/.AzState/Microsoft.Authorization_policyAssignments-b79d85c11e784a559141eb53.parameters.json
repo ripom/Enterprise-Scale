@@ -1,0 +1,43 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "78e02731-b53e-4e63-98a1-076646a61f22",
+          "tenantId": "b360370f-5bb6-4b45-8aa1-f93f434a0236",
+          "type": "SystemAssigned"
+        },
+        "Location": "eastus",
+        "Name": "b79d85c11e784a559141eb53",
+        "PolicyAssignmentId": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7/providers/Microsoft.Authorization/policyAssignments/b79d85c11e784a559141eb53",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Deploy-vWAN",
+          "NotScopes": null,
+          "Parameters": {
+            "rgName": {
+              "value": "testricrg"
+            },
+            "vwanname": {
+              "value": "testric"
+            },
+            "vwanRegion": {
+              "value": "westeurope"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/ripom/providers/Microsoft.Authorization/policyDefinitions/Deploy-vWAN",
+          "Scope": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7"
+        },
+        "ResourceId": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7/providers/Microsoft.Authorization/policyAssignments/b79d85c11e784a559141eb53",
+        "ResourceName": "b79d85c11e784a559141eb53",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

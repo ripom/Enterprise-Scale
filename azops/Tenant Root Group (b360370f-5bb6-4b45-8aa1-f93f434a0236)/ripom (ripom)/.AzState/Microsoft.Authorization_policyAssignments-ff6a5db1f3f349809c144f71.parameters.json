@@ -1,0 +1,39 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "2aba7fc8-dd58-4b92-97ce-dc37b8b5e97b",
+          "tenantId": "b360370f-5bb6-4b45-8aa1-f93f434a0236",
+          "type": "SystemAssigned"
+        },
+        "Location": "westeurope",
+        "Name": "ff6a5db1f3f349809c144f71",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/ripom/providers/Microsoft.Authorization/policyAssignments/ff6a5db1f3f349809c144f71",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Deploy-vNet",
+          "NotScopes": null,
+          "Parameters": {
+            "ipam": {
+              "value": [
+                "10.10.20.0/24"
+              ]
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/ripom/providers/Microsoft.Authorization/policyDefinitions/Deploy-vNet",
+          "Scope": "/providers/Microsoft.Management/managementGroups/ripom"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/ripom/providers/Microsoft.Authorization/policyAssignments/ff6a5db1f3f349809c144f71",
+        "ResourceName": "ff6a5db1f3f349809c144f71",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

@@ -14,6 +14,41 @@
           "policySetDefinitions": [],
           "policyAssignments": [
             {
+              "Identity": {
+                "principalId": "78e02731-b53e-4e63-98a1-076646a61f22",
+                "tenantId": "b360370f-5bb6-4b45-8aa1-f93f434a0236",
+                "type": "SystemAssigned"
+              },
+              "Location": "eastus",
+              "Name": "b79d85c11e784a559141eb53",
+              "PolicyAssignmentId": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7/providers/Microsoft.Authorization/policyAssignments/b79d85c11e784a559141eb53",
+              "Properties": {
+                "Description": null,
+                "DisplayName": "Deploy-vWAN",
+                "NotScopes": null,
+                "Parameters": {
+                  "rgName": {
+                    "value": "testricrg"
+                  },
+                  "vwanname": {
+                    "value": "testric"
+                  },
+                  "vwanRegion": {
+                    "value": "westeurope"
+                  }
+                },
+                "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/ripom/providers/Microsoft.Authorization/policyDefinitions/Deploy-vWAN",
+                "Scope": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7"
+              },
+              "ResourceId": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7/providers/Microsoft.Authorization/policyAssignments/b79d85c11e784a559141eb53",
+              "ResourceName": "b79d85c11e784a559141eb53",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A0",
+                "tier": "Free"
+              }
+            },
+            {
               "Identity": null,
               "Location": null,
               "Name": "DataProtectionSecurityCenter",
@@ -67,6 +102,18 @@
                 "PrincipalId": "8f78e146-aa0e-4216-9c98-583ece2177d5",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/4d97b98b-1d4f-4787-a291-c67834d212e7",
                 "RoleDefinitionName": "Network Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7/providers/Microsoft.Authorization/roleAssignments/9d7396b3-2003-49a3-99b1-669c1fd0e1c9",
+              "Name": "9d7396b3-2003-49a3-99b1-669c1fd0e1c9",
+              "properties": {
+                "DisplayName": "b79d85c11e784a559141eb53",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "78e02731-b53e-4e63-98a1-076646a61f22",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
               },
               "ResourceType": "Microsoft.Authorization/roleAssignments"
             }
