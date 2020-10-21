@@ -16,85 +16,11 @@
         "ParentDisplayName": null,
         "Children": [
           {
-            "Type": "/providers/Microsoft.Management/managementGroups",
-            "Id": "/providers/Microsoft.Management/managementGroups/ripom",
-            "Name": "ripom",
-            "DisplayName": "ripom",
-            "Children": [
-              {
-                "Type": "/providers/Microsoft.Management/managementGroups",
-                "Id": "/providers/Microsoft.Management/managementGroups/ripom-decommissioned",
-                "Name": "ripom-decommissioned",
-                "DisplayName": "ripom-decommissioned",
-                "Children": null
-              },
-              {
-                "Type": "/providers/Microsoft.Management/managementGroups",
-                "Id": "/providers/Microsoft.Management/managementGroups/ripom-landingzones",
-                "Name": "ripom-landingzones",
-                "DisplayName": "ripom-landingzones",
-                "Children": [
-                  {
-                    "Type": "/providers/Microsoft.Management/managementGroups",
-                    "Id": "/providers/Microsoft.Management/managementGroups/ripom-corp",
-                    "Name": "ripom-corp",
-                    "DisplayName": "ripom-corp",
-                    "Children": null
-                  },
-                  {
-                    "Type": "/providers/Microsoft.Management/managementGroups",
-                    "Id": "/providers/Microsoft.Management/managementGroups/ripom-online",
-                    "Name": "ripom-online",
-                    "DisplayName": "ripom-online",
-                    "Children": null
-                  }
-                ]
-              },
-              {
-                "Type": "/providers/Microsoft.Management/managementGroups",
-                "Id": "/providers/Microsoft.Management/managementGroups/ripom-sandboxes",
-                "Name": "ripom-sandboxes",
-                "DisplayName": "ripom-sandboxes",
-                "Children": null
-              },
-              {
-                "Type": "/providers/Microsoft.Management/managementGroups",
-                "Id": "/providers/Microsoft.Management/managementGroups/ripom-platform",
-                "Name": "ripom-platform",
-                "DisplayName": "ripom-platform",
-                "Children": [
-                  {
-                    "Type": "/providers/Microsoft.Management/managementGroups",
-                    "Id": "/providers/Microsoft.Management/managementGroups/ripom-management",
-                    "Name": "ripom-management",
-                    "DisplayName": "ripom-management",
-                    "Children": [
-                      {
-                        "Type": "/subscriptions",
-                        "Id": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7",
-                        "Name": "19d772c9-65d9-4846-9bd3-6477b61402e7",
-                        "DisplayName": "Visual Studio Enterprise Subscription",
-                        "Children": null
-                      }
-                    ]
-                  },
-                  {
-                    "Type": "/providers/Microsoft.Management/managementGroups",
-                    "Id": "/providers/Microsoft.Management/managementGroups/ripom-identity",
-                    "Name": "ripom-identity",
-                    "DisplayName": "ripom-identity",
-                    "Children": null
-                  },
-                  {
-                    "Type": "/providers/Microsoft.Management/managementGroups",
-                    "Id": "/providers/Microsoft.Management/managementGroups/ripom-connectivity",
-                    "Name": "ripom-connectivity",
-                    "DisplayName": "ripom-connectivity",
-                    "Children": null
-                  }
-                ]
-              }
-            ]
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/19d772c9-65d9-4846-9bd3-6477b61402e7",
+            "Name": "19d772c9-65d9-4846-9bd3-6477b61402e7",
+            "DisplayName": "Visual Studio Enterprise Subscription",
+            "Children": null
           }
         ],
         "properties": {
